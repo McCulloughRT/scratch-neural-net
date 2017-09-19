@@ -14,7 +14,7 @@ Passing in a NxM array for X where
 * N = number of examples
 * M = number of features (pixels in a flat image)
 
-Pass a binary ground-truth vector for Y indicating 1 as positive and 0 as negative.
+Pass a binary ground-truth vector for Y indicating 1 as positive and 0 as negative for each example in X.
 
 Pass a list of scalars for layer_dims where the initial value corresponds to your input dimension, subsequent values will create additional hidden layers with the number of neurons in that layer equal to the value. eg: [784,100,10] for a network to compute a 28x28 image with a two layer network consisting of a hundred hidden units then ten hidden units.
 
